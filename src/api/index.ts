@@ -1,6 +1,6 @@
 export const fetchFn = async (search?: string): Promise<flickrResponse> => {
   try {
-    const url = `http://localhost:8086/flickr`;
+    const url = `http://localhost:8080/flickr`;
     const query = search ? `/?search=${search}` : "";
     const response = await fetch(`${url}${query}`, {
       method: "get",

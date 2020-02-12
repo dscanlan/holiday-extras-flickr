@@ -15,10 +15,14 @@ In the project directory, you can run:
 
 ### `yarn start`
 
-Runs the app in the development mode.<br />
+Runs the CRA app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-This must be started along with the api from tech test. The react app will request the server to get data from `https://api.flickr.com/services/feeds/photos_public.gne`.
+### `yarn server`
+
+To enable the flickr request there is an expressjs app also which will host built site and perform request. The react app will request the server to get data from `https://api.flickr.com/services/feeds/photos_public.gne`.
+
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
 ## Check list of solution requirements
 
