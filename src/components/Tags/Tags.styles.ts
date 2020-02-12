@@ -17,7 +17,7 @@ export const Tag = styled.div`
   flex-direction: row;
   padding: 2px 4px;
   border-radius: 8px;
-  background-color: red;
+  background-color: #3f94f3;
   margin-bottom: 3px;
   height: 11px;
   margin: 2px;

@@ -24,6 +24,10 @@ To enable the flickr request there is an expressjs app also which will host buil
 
 Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
+### `yarn dev`
+
+for development purposes, this will start both CRA development server and node expressjs server.
+
 ## Check list of solution requirements
 
 [x] Create a flickr consumer.

@@ -52,6 +52,7 @@ const App: FC<{}> = () => {
 
   const onSearch = (search: string) => {
     setSearchString(search);
+    window.scrollTo(0, 0);
     debounce(async () => {
       const response = await getFlickr(search);
       setItems(response.items);
@@ -61,7 +62,6 @@ const App: FC<{}> = () => {
 
   useLayoutEffect(() => {
     const parentEl = document.scrollingElement;
-    console.log(parentEl);
     parentEl?.addEventListener("scroll", onScroll);
     parentEl?.addEventListener("wheel", onScroll);
 

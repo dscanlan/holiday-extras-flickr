@@ -5,6 +5,7 @@ export const Container = styled.div`
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 40px;
+  background: #f2f4f6;
 `;
 
 export const TagsContainer = styled.div`

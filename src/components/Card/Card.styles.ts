@@ -5,7 +5,8 @@ export const Container = styled.div`
   padding: 10px;
   width: 150px;
   height: 250px;
-  border: solid 1px black;
+  border: solid 1px #a9b5c7;
+  border-radius: 4px;
 `;
 
 export const LinkLarge = styled.a`
